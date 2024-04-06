@@ -30,14 +30,7 @@ namespace Week10HW
             {
                 if (tab == selectedTab)
                 {
-                    // Make this TabPage Visible
-                    tab.Visible = true;
                     tabControl.SelectedTab = tab;
-                }
-                else
-                {
-                    // Hide other TabPages
-                    tab.Visible = false;
                 }
             }
         }
